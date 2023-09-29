@@ -1,0 +1,166 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.sec1{
+  
+display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  left: 50%;
+  right: 50%;
+      background: url(https://preview.colorlib.com/theme/meal/images/slider-1.jpg.webp);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+
+  }
+
+.container{
+
+    padding : 100px;
+   
+ margin: 0 auto;
+ 
+  width: 300px;
+ height: 200px;
+
+
+   
+}
+.text1 h2{
+
+    font-size: 50px;
+text-align: center;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.button{
+margin-left: 27%;
+    background-color: white;
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+    border: none;
+      /* From https://css.glass */
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+padding:20px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1px);
+-webkit-backdrop-filter: blur(1px);
+border: 1px solid rgba(255, 255, 255, 0.47);
+}
+.button:hover{
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(19.9px);
+-webkit-backdrop-filter: blur(19.9px);
+border: 1px solid rgba(255, 255, 255, 0.69);
+
+color: black;
+
+
+
+}
+.text1{
+ 
+}
+.sec2{
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgb(228, 222, 222);
+  
+}
+.text2{
+   text-align: center;
+   padding: 50px;
+}
+.row1{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.row2{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+}
+.image1{
+  
+
+    width: 300px;
+align-items: center;
+   
+   height: 300px;
+    background-size: cover;
+background-position: center;
+    background-image: url(https://preview.colorlib.com/theme/meal/images/img_1.jpg.webp);
+}
+
+.image2{
+   
+   background-image: url(https://preview.colorlib.com/theme/meal/images/img_2.jpg.webp); 
+   
+   width: 300px;
+align-items: center;
+  
+   height: 300px;
+   background-size: cover;
+background-position: center;
+
+
+}
+.image3{
+    background-image: url(https://preview.colorlib.com/theme/meal/images/img_3.jpg.webp);
+    width: 340px;
+    align-items: center;
+      
+       height: 340px;
+       background-size: cover;
+    background-position: center;
+}
+.box1{
+   
+    padding: 20px;
+    width: 300px;
+    height: 260px;
+  
+text-align: center;
+align-items: center;
+background-color: white;
+}
+
+   
+.box2{
+    align-items: center;
+background-color: white;
+text-align: center;
+padding: 20px;
+width: 300px;
+height: 300px;
+
+
+background-color: white;
+}
+.box3{
+    align-items: center;
+background-color: white;
+text-align: center;
+padding: 20px;
+
+width: 300px;
+height: 300px;
+}
+.link{
+
+    text-decoration: none;
+    color: black;
+}
